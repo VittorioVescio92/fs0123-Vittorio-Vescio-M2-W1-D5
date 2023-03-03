@@ -4,6 +4,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+/* HEADER */
 nav{
     display: flex;
     align-items: center;
@@ -44,7 +45,7 @@ nav{
 
 #logo{
     position: absolute;
-    left:12.5%;
+    left:15%;
 }
 
 #logo:hover{
@@ -71,7 +72,7 @@ header{
     display: flex;
     flex-direction: column;
     position: absolute;
-    left: 12.5%;
+    left: 15%;
     width: 600px;
     padding-right: 75px;
     text-align: center;
@@ -106,4 +107,182 @@ header{
 #header-left button a {
     text-decoration: none;
     color: white;
+}
+
+/* MAIN */
+
+article{
+    border-bottom: 1px solid rgb(184, 184, 184);
+    padding-bottom: 50px;
+}
+article #trending{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 15%;
+    font-weight: bold;
+    gap: 10px;
+}
+
+#trending-articles{
+    display: flex;
+    flex-wrap:wrap;
+    margin: 0 15% 0 15%;
+    justify-content: space-evenly;
+}
+
+.trending-n{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/3);
+    position: relative;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.trending-n p:first-of-type{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: rgb(184, 184, 184);
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.trending-n p img{
+    width: 6%;
+    border-radius: 100%;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+.trending-n p:nth-of-type(2){
+    display: flex;
+    align-items: center;
+    margin-inline: 50px;
+    font-size: 0.85rem;
+    font-weight: 500;   
+}
+
+.trending-n span:first-of-type{
+    color: rgb(85, 85, 85);
+}
+
+.trending-n h3{
+    margin-inline: 50px;
+    font-weight: bold; 
+}
+
+.data{
+    margin-inline: 50px;
+    font-size: 0.9rem;
+    color: rgb(85, 85, 85);
+}
+
+#mega-container{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+}
+
+aside{
+    width: 45%;
+}
+
+aside p{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#container1{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 30%;
+}
+
+#container1 div{
+    width: 25%;
+    border: 1px solid rgb(184, 184, 184);
+    padding: 10px;
+    margin: 5px;
+    font-size: 0.8rem;
+    color: rgb(95, 95, 95);
+}
+
+#random-articles{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    gap: 200px;
+    margin-right: 10px;
+}
+
+.container2{
+    display: flex;
+    padding: 10px;
+}
+
+
+#random-articles div p img:first-of-type{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 100%;
+}
+
+.text{
+    flex-direction: column;
+    position: relative;
+    padding: 50px;
+}
+
+#random-articles .name{
+    margin-left: 50px;
+    margin-top: 10px;
+    color: rgb(8,8,8);
+    
+}
+
+#random-articles div h3{
+    line-height: 70px;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+#random-articles p{
+    color: rgb(115, 115, 115);
+    font-size: 1.4rem;
+}
+
+#random-articles span{
+    display: flex;
+    margin-top: 5px;
+    color: rgb(115, 115, 115);
+    font-size: 1rem;
+    align-items: center;
+}
+
+#random-articles span button{
+    background-color: rgb(225, 225, 225);
+    padding: 5px 10px;
+    border-radius: 25px;
+    border: none;
+    font-size: 0.8rem;
+    color: rgb(115, 115, 115);
+    margin-inline: 5px;
+}
+
+#random-articles div .image{
+box-sizing: border-box;
+    
+}
+
+.bookmark{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
 }
