@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Spectral&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #ffc017;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-block: 20px;
+    gap: 100px;
+     background-color: #ffc017;
+    border-bottom: 1px solid rgb(25,25,25);
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+#nav-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+#nav-options a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: rgb(25,25,25);
+}
+
+#nav-options button{
+    background-color: rgb(25,25,25);
+    padding: 10px;
+    border-radius: 25px;
+}
+
+#nav-options button a {
+    color: white;
+}
