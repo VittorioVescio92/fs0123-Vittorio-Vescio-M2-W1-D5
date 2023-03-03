@@ -177,6 +177,8 @@ article #trending{
     margin-inline: 50px;
     font-size: 0.9rem;
     color: rgb(85, 85, 85);
+    display: flex;
+    align-items: center;
 }
 
 #mega-container{
@@ -200,6 +202,8 @@ aside p{
     display: flex;
     flex-wrap: wrap;
     margin-right: 30%;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgb(225, 225, 225) ;
 }
 
 #container1 div{
