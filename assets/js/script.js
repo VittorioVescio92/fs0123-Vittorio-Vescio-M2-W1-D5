@@ -8,6 +8,17 @@ function Backgroundcolor() {
   } else {
     nav.classList.remove("nav");
   }
+  FadeIn();
 }
 
 window.addEventListener("scroll", Backgroundcolor);
+
+function FadeIn(){
+if (window.scrollY > header.offsetHeight) {
+    nav.style.transition = `background-color ${500}ms`;
+    nav.style.backgroundColor = "white";
+  } else {
+    nav.style.transition = `background-color ${500}ms`;
+    nav.style.backgroundColor = "#ffc017";
+  }
+}
