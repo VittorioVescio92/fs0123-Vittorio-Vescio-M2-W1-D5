@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 /* HEADER */
@@ -291,3 +292,7 @@ box-sizing: border-box;
     bottom: 10px;
     right: 15px;
 }
+
+.nav{
+    background-color: white;
+  }
