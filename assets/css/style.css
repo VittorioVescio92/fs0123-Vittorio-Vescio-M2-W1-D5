@@ -216,8 +216,8 @@ aside p{
     flex-direction: column;
     flex-wrap: nowrap;
     flex-grow: 1;
-    gap: 200px;
-    margin-right: 10px;
+    gap: 50px;
+    margin-right: 25px;
 }
 
 .container2{
@@ -278,11 +278,12 @@ aside p{
 
 #random-articles div .image{
 box-sizing: border-box;
+width: ;
     
 }
 
 .bookmark{
     position: absolute;
-    bottom: 0px;
-    right: 0px;
+    bottom: 10px;
+    right: 10px;
 }
