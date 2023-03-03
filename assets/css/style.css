@@ -13,7 +13,7 @@ nav{
     padding-block: 20px;
     background-color: #ffc017;
     border-bottom: 1px solid rgb(25,25,25);
-    position: sticky;
+    position: fixed;
     top: 0px;
     z-index: 1;
 }
@@ -203,7 +203,7 @@ aside p{
     display: flex;
     flex-wrap: wrap;
     margin-right: 30%;
-    margin-bottom: 50px;
+    padding-bottom: 25px;
     border-bottom: 1px solid rgb(225, 225, 225) ;
 }
 
@@ -283,7 +283,6 @@ aside p{
 
 #random-articles div .image{
 box-sizing: border-box;
-width: ;
     
 }
 
