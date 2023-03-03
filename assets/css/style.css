@@ -55,6 +55,7 @@ nav{
 
 header{
     background-color: #ffc017;
+    border-bottom: 1px solid rgb(25,25,25);;
 }
 
 #header-bottom{
@@ -62,10 +63,11 @@ header{
     justify-content:flex-end;
     gap: 120px;
     position: relative;
-    border-bottom: 1px solid rgb(25,25,25);
+    
 }
 
 #header-bottom svg{
+    margin-top: 80px;
     max-width: 575px;
 }
 
@@ -84,7 +86,7 @@ header{
     color: rgb(8,8,8);
     font-size: 6.5rem;
     font-weight: 500;
-    padding-top: 90px;
+    padding-top: 175px;
 }
 
 #header-left h2{
