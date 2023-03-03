@@ -46,7 +46,7 @@ nav{
 
 #logo{
     position: absolute;
-    left:15%;
+    left:12%;
 }
 
 #logo:hover{
@@ -73,7 +73,7 @@ header{
     display: flex;
     flex-direction: column;
     position: absolute;
-    left: 15%;
+    left: 12%;
     width: 600px;
     padding-right: 75px;
     text-align: center;
@@ -120,7 +120,7 @@ article #trending{
     display: flex;
     align-items: center;
     margin-top: 40px;
-    margin-left: 15%;
+    margin-left: 12%;
     font-weight: bold;
     gap: 10px;
 }
@@ -128,7 +128,7 @@ article #trending{
 #trending-articles{
     display: flex;
     flex-wrap:wrap;
-    margin: 0 15% 0 15%;
+    margin: 0 12% 0 12%;
     justify-content: space-evenly;
 }
 
@@ -187,7 +187,7 @@ article #trending{
     margin-top: 70px;
     display: flex;
     flex-direction: row-reverse;
-    justify-content:space-between;
+    margin-inline: 12%;
 }
 
 aside{
@@ -203,13 +203,12 @@ aside p{
     margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
-    margin-right: 30%;
     padding-bottom: 25px;
     border-bottom: 1px solid rgb(225, 225, 225) ;
 }
 
 #container1 div{
-    width: 25%;
+    width: 30%;
     border: 1px solid rgb(184, 184, 184);
     padding: 10px;
     margin: 5px;
@@ -221,52 +220,58 @@ aside p{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    flex-grow: 1;
     gap: 50px;
-    margin-right: 25px;
+    margin-right: 80px;
+    max-width: 50%;
 }
 
 .container2{
     display: flex;
-    padding: 10px;
+    
 }
-
 
 #random-articles div p img:first-of-type{
     position: absolute;
-    top: 50px;
-    left: 50px;
+    top: 0px;
+    left: 0px;
     border-radius: 100%;
+    width: 40px;
 }
 
 .text{
-    flex-direction: column;
     position: relative;
-    padding: 50px;
+    padding-right: 15px;
 }
+
+#random-articles div .image{
+    box-sizing: border-box;
+    margin-bottom: 0px; 
+    max-width: 400px;   
+    }
 
 #random-articles .name{
     margin-left: 50px;
     margin-top: 10px;
-    color: rgb(8,8,8);
-    
+    color: rgb(8,8,8); 
+    font-size: 1rem;   
 }
 
 #random-articles div h3{
-    line-height: 70px;
-    font-size: 2rem;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-size: 1.6rem;
     font-weight: bold;
     
 }
 
 #random-articles p{
     color: rgb(115, 115, 115);
-    font-size: 1.4rem;
+    font-size: 1.1rem;
 }
 
 #random-articles span{
     display: flex;
-    margin-top: 5px;
+    margin-top: 10px;
     color: rgb(115, 115, 115);
     font-size: 1rem;
     align-items: center;
@@ -282,15 +287,10 @@ aside p{
     margin-inline: 5px;
 }
 
-#random-articles div .image{
-box-sizing: border-box;
-    
-}
-
 .bookmark{
     position: absolute;
     bottom: 10px;
-    right: 15px;
+    right: 25px;
 }
 
 .nav{
